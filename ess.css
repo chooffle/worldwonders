@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg/3188px-World%2C_administrative_divisions_-_de_-_colored_%28all_countries%29.svg.png")
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    font-family: arial;
+    font-color: solid grey;
+    font-size: 20px;
+}
+
+div {
+	background-color: lightgrey;
+	width: 300px;
+	border: 3px solid white;
+	padding: 25px;
+	margin: 25px;
+}
+
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
